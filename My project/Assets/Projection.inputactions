@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "Projection",
+    "maps": [
+        {
+            "name": "player",
+            "id": "aa2333ab-bf7b-421f-b450-9830b6156491",
+            "actions": [
+                {
+                    "name": "spawnGhostAction",
+                    "type": "Button",
+                    "id": "4308f608-f34f-4fa9-91ee-735a0dd57be7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1bd38dbb-af82-4a9d-a1a4-269fc1a37cce",
+                    "path": "<Keyboard>/g",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "spawnGhostAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
