@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 moveInput;
     private int jumpCount;
     private bool isGrounded;
+    private bool wasGrounded;
 
     private void Awake()
     {
@@ -28,11 +29,13 @@ public class PlayerMovement : MonoBehaviour
             groundCheckRadius,
             groundLayer
         );
-
-        if (isGrounded)
+        
+        if (isGrounded && !wasGrounded)
         {
             jumpCount = 0;
         }
+
+        wasGrounded = isGrounded;
     }
 
     public void OnMove(InputAction.CallbackContext context)
