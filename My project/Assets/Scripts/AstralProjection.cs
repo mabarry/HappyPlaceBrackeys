@@ -1,32 +1,34 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.InputSystem;
 
 
 public class AstralProjection : MonoBehaviour
 {
-    public Sprite mainPlayer;
-    public GameObject ghostPlayer;
-    public bool isActive = false;
-    public InputActionReference spawnGhostAction;
-
-    private void OnEnable()  { spawnGhostAction.action.Enable(); }
-    private void OnDisable() { spawnGhostAction.action.Disable(); }
+    private bool isActive = false;
+    private GameObject ghostPlayer;
+    public Image frostOverlay;
+    public GameObject ghostPrefab;
+    public InputActionReference toggleGhostMode;
+    
+    private void OnEnable()  { toggleGhostMode.action.Enable(); }
+    private void OnDisable() { toggleGhostMode.action.Disable(); }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        frostOverlay.enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {   
-        if (spawnGhostAction.action.triggered)
+        if (toggleGhostMode.action.triggered)
         {
             if (!isActive) {
                 createGhostPlayer();
             } else {
-
+                deleteGhostPlayer();
             }
         }
         
@@ -35,8 +37,12 @@ public class AstralProjection : MonoBehaviour
 
     void createGhostPlayer() {
         isActive = true;
+        Debug.Log("Ghost mode activated, frostOverlay is: " + frostOverlay);
+        frostOverlay.enabled = true;
         SpriteRenderer playerRender = GetComponent<SpriteRenderer>();
-        ghostPlayer = Instantiate(gameObject, transform.position, transform.rotation);
+        GetComponent<PlayerMovement>().enabled = false;
+
+        ghostPlayer = Instantiate(ghostPrefab, transform.position, transform.rotation);
         ghostPlayer.name = "Ghost";
 
         SpriteRenderer ghostRender = ghostPlayer.GetComponent<SpriteRenderer>();
@@ -45,6 +51,15 @@ public class AstralProjection : MonoBehaviour
 
         Collider2D playerCollider = GetComponent<Collider2D>();
         Collider2D ghostCollider = ghostPlayer.GetComponent<Collider2D>();
-        Physics2D.IgnoreCollision(playerCollider, ghostCollider, true);
+        if (playerCollider != null && ghostCollider != null)
+            Physics2D.IgnoreCollision(playerCollider, ghostCollider, true);
+    }
+
+    void deleteGhostPlayer() {
+        frostOverlay.enabled = false;
+        Destroy(ghostPlayer);
+        ghostPlayer = null;
+        GetComponent<PlayerMovement>().enabled = true;
+        isActive = false;
     }
 }
