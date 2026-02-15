@@ -45,11 +45,6 @@ public class AstralProjection : MonoBehaviour
         ghostPlayer = Instantiate(ghostPrefab, transform.position, transform.rotation);
         ghostPlayer.name = "Ghost";
 
-        PlayerMovement ghostMovement = ghostPlayer.GetComponent<PlayerMovement>();
-        PlayerMovement playerMovement = GetComponent<PlayerMovement>();
-        ghostMovement.groundCheck = playerMovement.groundCheck;
-        ghostMovement.groundLayer = playerMovement.groundLayer;
-
         SpriteRenderer ghostRender = ghostPlayer.GetComponent<SpriteRenderer>();
         ghostRender.sprite = playerRender.sprite;
         ghostRender.color = Color.blue;
