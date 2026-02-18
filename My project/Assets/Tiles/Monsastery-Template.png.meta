@@ -44,7 +44,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 3
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -134,7 +134,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4d556684a5ed434099f2e47188a65f8
+      spriteID: bb833401068083d4b960dafb8e5a2760
       internalID: 1290447465
       vertices: []
       indices: 
@@ -156,7 +156,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 907c1f56e8883f645954ba101552e9ee
+      spriteID: 67f563972e40ae642aead008004c5c16
       internalID: -33880717
       vertices: []
       indices: 
@@ -178,7 +178,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 339dd97b03939cb449a07936e7b195a0
+      spriteID: bc27d2e228e865c4e86278f10917c4de
       internalID: -981242147
       vertices: []
       indices: 
@@ -200,7 +200,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d20c7def6b7859b46a5685e1a6cc1c6e
+      spriteID: 55c6b33f567611946a49fd80ba70b84c
       internalID: -1928868165
       vertices: []
       indices: 
@@ -222,7 +222,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49928288a07b08249bc5be230f7d6e3c
+      spriteID: 8ffdcbd70e8886944ac2f18100237437
       internalID: 1131541811
       vertices: []
       indices: 
@@ -232,8 +232,8 @@ TextureImporter:
       name: Monsastery-Template_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
+        x: 96
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -244,7 +244,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6408f6475f6cbc34ebf876c8e43b54f5
+      spriteID: 64ced5a2282e2b840b3696a1334a2ad7
       internalID: 1927124931
       vertices: []
       indices: 
@@ -254,8 +254,8 @@ TextureImporter:
       name: Monsastery-Template_7
       rect:
         serializedVersion: 2
-        x: 16
-        y: 96
+        x: 112
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -266,7 +266,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9477f0c1c3fb194caa9dae273347bd7
+      spriteID: 2cd1da21d41dc4249a1c6528b559625f
       internalID: -1569197418
       vertices: []
       indices: 
@@ -276,7 +276,7 @@ TextureImporter:
       name: Monsastery-Template_8
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 96
         width: 16
         height: 16
@@ -288,7 +288,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42aebb4d5e522994ab80d3435d47116f
+      spriteID: 0bf92d28472bb3746bd6c5a23322ede7
       internalID: -961890866
       vertices: []
       indices: 
@@ -298,7 +298,7 @@ TextureImporter:
       name: Monsastery-Template_9
       rect:
         serializedVersion: 2
-        x: 48
+        x: 16
         y: 96
         width: 16
         height: 16
@@ -310,7 +310,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45104c21cdbb6144dbb8436f894667e2
+      spriteID: baac8bf23fc1bab43a8a20e89b7175f8
       internalID: -740368551
       vertices: []
       indices: 
@@ -320,6 +320,50 @@ TextureImporter:
       name: Monsastery-Template_10
       rect:
         serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a8cd3961faf3844a353de037f3dc7f
+      internalID: 1092959630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ec8c5cee95f614a95f3097c6069b0b
+      internalID: 337272708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_12
+      rect:
+        serializedVersion: 2
         x: 64
         y: 96
         width: 16
@@ -332,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3cd98bd9c0f9ba4b919644b107b9a9c
-      internalID: 1092959630
+      spriteID: ab37ad8a2c1176e44be741b8f9ac0cd8
+      internalID: 94159007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monsastery-Template_11
+      name: Monsastery-Template_13
       rect:
         serializedVersion: 2
         x: 80
@@ -354,14 +398,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 023b290b6c5609a4091de26022bbb7a7
-      internalID: 337272708
+      spriteID: 9027f89fb971cee4fbf475172382e2a8
+      internalID: 230525345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monsastery-Template_12
+      name: Monsastery-Template_14
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03fb58bb2f08b74898550d5e5836b07
+      internalID: -276310290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_15
       rect:
         serializedVersion: 2
         x: 0
@@ -376,14 +442,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8716e39eb8e1754ea7ed026e561f85b
-      internalID: 94159007
+      spriteID: 5364fa52c52920745ba89e8a137e5ab3
+      internalID: -133956793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monsastery-Template_13
+      name: Monsastery-Template_16
       rect:
         serializedVersion: 2
         x: 16
@@ -398,14 +464,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d6f0141027a2f445843d82d87f39073
-      internalID: 230525345
+      spriteID: e65ba0d1806ef2541b30276e1f67c311
+      internalID: 2082682627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monsastery-Template_14
+      name: Monsastery-Template_17
       rect:
         serializedVersion: 2
         x: 32
@@ -420,14 +486,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 101829e6627ddb749a6a892e0210ddbf
-      internalID: -276310290
+      spriteID: 57dfb3b8a17cc374ab28cb4cc8b9ee9e
+      internalID: -487358923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monsastery-Template_15
+      name: Monsastery-Template_18
       rect:
         serializedVersion: 2
         x: 48
@@ -442,14 +508,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3509ad630b3d77d4fb71702c5b0cbc2d
-      internalID: -133956793
+      spriteID: eddd64694a382fe4a868965a82ef034c
+      internalID: 1049922467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monsastery-Template_16
+      name: Monsastery-Template_19
       rect:
         serializedVersion: 2
         x: 64
@@ -464,14 +530,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbd3b4de26a72784f8704b45230dfe11
-      internalID: 2082682627
+      spriteID: fe68f69d612a79940a77c91eb6a2c089
+      internalID: 473579372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monsastery-Template_17
+      name: Monsastery-Template_20
       rect:
         serializedVersion: 2
         x: 80
@@ -486,14 +552,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4893028a523f0fc4f91ced4078d4aba9
-      internalID: -487358923
+      spriteID: 621ae5bb20b782f4faa8262f8abbfb09
+      internalID: 476538922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monsastery-Template_18
+      name: Monsastery-Template_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5dcac6fc101dc42bd3a67948085496
+      internalID: -164520365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_22
       rect:
         serializedVersion: 2
         x: 0
@@ -508,14 +596,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35a2e57490ec36749aa83de50e495fdc
-      internalID: 1049922467
+      spriteID: 30224cca72c9bc64b9fce1dacc5a96df
+      internalID: 1700595987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monsastery-Template_19
+      name: Monsastery-Template_23
       rect:
         serializedVersion: 2
         x: 16
@@ -530,14 +618,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1861347d25ac1b4aa367b07967bbd8b
-      internalID: 473579372
+      spriteID: b14c924ece91bf74381857250f4666bf
+      internalID: -1334928524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Monsastery-Template_20
+      name: Monsastery-Template_24
       rect:
         serializedVersion: 2
         x: 32
@@ -552,8 +640,712 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afe5f425243685c4d8ea3aad33591d8e
-      internalID: 476538922
+      spriteID: c2054cabb93dcad48bae775ba8b747e0
+      internalID: 820332909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5077c9a7763d7a549b667de59b7ca8c9
+      internalID: 204346066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af4fa77cc31ed74297f5aab1fb53a78
+      internalID: -1714167948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_27
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97274d6a51d50c4585fc75b404ff2fc
+      internalID: -736792208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a0444aac91808409ff463ff8d4beaa
+      internalID: 1178705541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bccee441ea86f4dbccd55f01e1ad9f
+      internalID: -1252377775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d7272a3e7e2704fbdd487478a19b6a
+      internalID: 1539470739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_31
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc7f6a9f39bd7345aaceb074ad68343
+      internalID: 2098977309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d91f3653593e544b99785fc7cff175
+      internalID: -1989882847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_33
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e522223ba5ab6445a4b4cde0d355af9
+      internalID: 1806367182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_34
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cc69204bddfef47a2f0d689f99a367
+      internalID: -1087229950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b9834aa2591a342b296903c2db08e7
+      internalID: -809509756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dedd5951b65bc0448975c073a494d41
+      internalID: -1373472580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bffe82c6f545444591c1245298f5b4a
+      internalID: -97005673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_38
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159bdf0fca9666c4ba6f981ad1df6263
+      internalID: -474497981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1effc92d49d947d46abffdcbc7935acb
+      internalID: -7883813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_40
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dcb84a2daacc74d9f90bd67e566d2e
+      internalID: 1412019458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66787b7e3e436844980b372a9c48ea9b
+      internalID: -1060260311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_42
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6af97bafae993489209fd614eadc19
+      internalID: -410439913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bdb4213b295254482579fdaf072f73
+      internalID: 1180523522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_44
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35278ace2adedc4e92c2126decaafd1
+      internalID: -709315609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b1bcf95e92594448b70cc8af37d42f
+      internalID: -1379561888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_46
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627dd5a17bf676b43b3a6a972c43c97c
+      internalID: -1649341956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_47
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eea09a8c2eff0a43a5d4b1aa93eb264
+      internalID: -1661762651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_48
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f799c19c1a91804e840c93dfa4d73cc
+      internalID: 57185885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a6432727c7af347a3c7711d4ae9917
+      internalID: -1973606044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_50
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4dcd6dfd77a294dbb65c65db2a937e
+      internalID: 1231515022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650194f09174a474fa3cc994d8b95433
+      internalID: -234295895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_52
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d580674be443946a6e8e38ef5e1b7b
+      internalID: 973316699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46317afe0a1918b47a7a5a29409b121c
+      internalID: -1371887325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_54
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10abb0d82aab2af4d9254cb390abc3aa
+      internalID: -958882705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_55
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0987a8ca19b14e94d83c7f316de9dd8d
+      internalID: 1106191126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monsastery-Template_56
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204d7cf13d7a59448b311dcac6d486b4
+      internalID: -1787886267
       vertices: []
       indices: 
       edges: []
@@ -588,9 +1380,45 @@ TextureImporter:
       Monsastery-Template_19: 473579372
       Monsastery-Template_2: -33880717
       Monsastery-Template_20: 476538922
+      Monsastery-Template_21: -164520365
+      Monsastery-Template_22: 1700595987
+      Monsastery-Template_23: -1334928524
+      Monsastery-Template_24: 820332909
+      Monsastery-Template_25: 204346066
+      Monsastery-Template_26: -1714167948
+      Monsastery-Template_27: -736792208
+      Monsastery-Template_28: 1178705541
+      Monsastery-Template_29: -1252377775
       Monsastery-Template_3: -981242147
+      Monsastery-Template_30: 1539470739
+      Monsastery-Template_31: 2098977309
+      Monsastery-Template_32: -1989882847
+      Monsastery-Template_33: 1806367182
+      Monsastery-Template_34: -1087229950
+      Monsastery-Template_35: -809509756
+      Monsastery-Template_36: -1373472580
+      Monsastery-Template_37: -97005673
+      Monsastery-Template_38: -474497981
+      Monsastery-Template_39: -7883813
       Monsastery-Template_4: -1928868165
+      Monsastery-Template_40: 1412019458
+      Monsastery-Template_41: -1060260311
+      Monsastery-Template_42: -410439913
+      Monsastery-Template_43: 1180523522
+      Monsastery-Template_44: -709315609
+      Monsastery-Template_45: -1379561888
+      Monsastery-Template_46: -1649341956
+      Monsastery-Template_47: -1661762651
+      Monsastery-Template_48: 57185885
+      Monsastery-Template_49: -1973606044
       Monsastery-Template_5: 1131541811
+      Monsastery-Template_50: 1231515022
+      Monsastery-Template_51: -234295895
+      Monsastery-Template_52: 973316699
+      Monsastery-Template_53: -1371887325
+      Monsastery-Template_54: -958882705
+      Monsastery-Template_55: 1106191126
+      Monsastery-Template_56: -1787886267
       Monsastery-Template_6: 1927124931
       Monsastery-Template_7: -1569197418
       Monsastery-Template_8: -961890866
