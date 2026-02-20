@@ -37,10 +37,10 @@ public class AstralProjection : MonoBehaviour
 
     void createGhostPlayer() {
         isActive = true;
-        Debug.Log("Ghost mode activated, frostOverlay is: " + frostOverlay);
         frostOverlay.enabled = true;
         SpriteRenderer playerRender = GetComponent<SpriteRenderer>();
         GetComponent<PlayerMovement>().enabled = false;
+        GetComponent<PlayerInput>().enabled = false;
 
         ghostPlayer = Instantiate(ghostPrefab, transform.position, transform.rotation);
         ghostPlayer.name = "Ghost";
@@ -60,6 +60,7 @@ public class AstralProjection : MonoBehaviour
         Destroy(ghostPlayer);
         ghostPlayer = null;
         GetComponent<PlayerMovement>().enabled = true;
+        GetComponent<PlayerInput>().enabled = true;
         isActive = false;
     }
 }
