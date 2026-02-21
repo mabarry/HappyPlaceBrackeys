@@ -45,8 +45,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   whiteFade: {fileID: 0}
-  portal: {fileID: 0}
-  player: {fileID: 0}
   nextSceneName: Monastery
   maxDistance: 10
   minDistance: 1
