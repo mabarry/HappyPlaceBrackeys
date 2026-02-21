@@ -22,14 +22,14 @@ public class LevelTransition : MonoBehaviour
     private Transform player;
 
     void Start()
-{
-    DontDestroyOnLoad(gameObject);
-    DontDestroyOnLoad(whiteFade.transform.root.gameObject);
-    
-    Color c = whiteFade.color;
-    c.a = 0f;
-    whiteFade.color = c;
-}
+    {
+        DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(whiteFade.transform.root.gameObject);
+        
+        Color c = whiteFade.color;
+        c.a = 0f;
+        whiteFade.color = c;
+    }
 
     void Update()
     {
