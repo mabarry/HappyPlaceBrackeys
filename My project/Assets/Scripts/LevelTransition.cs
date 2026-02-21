@@ -91,7 +91,6 @@ public class LevelTransition : MonoBehaviour
 
     IEnumerator FadeTransition()
     {
-        Time.timeScale = 1f; // make sure time isn't frozen
         isTransitioning = true;
 
         // Get current fade amount
