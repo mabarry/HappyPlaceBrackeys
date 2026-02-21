@@ -7,7 +7,7 @@ public class MainMenuController : MonoBehaviour
     
     public void OnStartClick()
     {
-        SceneManager.LoadScene("Monastery");
+        SceneManager.LoadScene("Main");
     }
 
     public void OnQuitClick()
