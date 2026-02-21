@@ -4,10 +4,19 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
+    public LevelTransition levelTransition;
     
     public void OnStartClick()
     {
-        SceneManager.LoadScene("Monastery");
+        if (levelTransition != null)
+        {
+            levelTransition.nextSceneName = "Monastery";
+            levelTransition.StartTransition();
+        }
+        else
+        {
+            SceneManager.LoadScene("Monastery");
+        }
     }
 
     public void OnQuitClick()
