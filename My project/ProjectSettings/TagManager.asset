@@ -42,6 +42,36 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Sky
+    uniqueID: 3107874265
+    locked: 0
+  - name: CloudBG
+    uniqueID: 1330992295
+    locked: 0
+  - name: Mountain4
+    uniqueID: 3588519525
+    locked: 0
+  - name: Mountain3
+    uniqueID: 1990442179
+    locked: 0
+  - name: Mountain2
+    uniqueID: 2177494695
+    locked: 0
+  - name: Mountain1
+    uniqueID: 4025084659
+    locked: 0
+  - name: CloudFG
+    uniqueID: 2555911357
+    locked: 0
+  - name: Tiles
+    uniqueID: 3112011193
+    locked: 0
+  - name: Player
+    uniqueID: 3777977215
+    locked: 0
+  - name: FG
+    uniqueID: 1696988237
+    locked: 0
   m_RenderingLayers:
   - Default
   - Light Layer 1
