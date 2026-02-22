@@ -5,18 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main.unity
     guid: eb2f520613bdbcc46a88698e8157e37e
   - enabled: 1
-    path: Assets/Scenes/DarkWorld.unity
-    guid: 2dbe20b259c5e4f428ad27d8be39a708
-  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: c63f83acd42cdfe4fb28a0981300f19a
-  - enabled: 1
-    path: Assets/Scenes/Trippy.unity
-    guid: c8768c30d7c248e4c86bf1e9374666ac
   - enabled: 1
     path: Assets/Scenes/Monastery.unity
     guid: 9a630ce96b2d473439cbea132690663a
@@ -26,6 +20,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DarkWorld.unity
     guid: 2dbe20b259c5e4f428ad27d8be39a708
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 106a9935d2c4d234581ab1436011a632
+  - enabled: 0
+    path: Assets/Scenes/DarkWorld.unity
+    guid: 2dbe20b259c5e4f428ad27d8be39a708
+  - enabled: 0
+    path: Assets/Scenes/Trippy.unity
+    guid: c8768c30d7c248e4c86bf1e9374666ac
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: d612d322b41e2ac468d4e1ccc5fd0187, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
