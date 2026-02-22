@@ -6,12 +6,22 @@ public class GhostActivator : MonoBehaviour
     private GhostPlatform[] ghostPlatforms;
     private SpriteRenderer sr;
     private AstralProjection astralProjection;
+    private NormalPlatform doorToDisable;
+    private GameObject ghostWall;
 
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
-        ghostPlatforms = FindObjectsOfType<GhostPlatform>();
-        astralProjection = FindObjectOfType<AstralProjection>();
+        ghostPlatforms = FindObjectsByType<GhostPlatform>(FindObjectsSortMode.None);
+        astralProjection = FindFirstObjectByType<AstralProjection>();
+        
+        GameObject doorObj = GameObject.Find("Door");
+        if (doorObj != null)
+        {
+            doorToDisable = doorObj.GetComponent<NormalPlatform>();
+        }
+
+        ghostWall = GameObject.Find("GhostWall");
     }
 
     private void Update()
@@ -30,6 +40,17 @@ public class GhostActivator : MonoBehaviour
 
             foreach (GhostPlatform platform in ghostPlatforms)
                 platform.Activate();
+            
+            if (doorToDisable != null)
+            {
+                doorToDisable.gameObject.SetActive(false);
+            }
+
+            // Disable the Ghost Wall
+            if (ghostWall != null)
+            {
+                ghostWall.SetActive(false);
+            }
         }
     }
 }
