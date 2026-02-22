@@ -406,7 +406,7 @@ GameObject:
   - component: {fileID: 452862840}
   - component: {fileID: 452862839}
   - component: {fileID: 452862838}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ground Collide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2231,6 +2231,11 @@ Transform:
   - {fileID: 452862837}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &538314004 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6869202668882955035, guid: b71549ed9a94bd34281b9ba9957d2d6d, type: 3}
+  m_PrefabInstance: {fileID: 839241213}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &608979756
 GameObject:
   m_ObjectHideFlags: 0
@@ -7571,7 +7576,7 @@ Transform:
   m_GameObject: {fileID: 756555750}
   serializedVersion: 2
   m_LocalRotation: {x: 0.006138173, y: -0, z: -0, w: 0.99998116}
-  m_LocalPosition: {x: -5.63197, y: -0.04021609, z: 17.470703}
+  m_LocalPosition: {x: -5.63197, y: -0.04021609, z: 0}
   m_LocalScale: {x: 1, y: 0.93747, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8221,7 +8226,7 @@ Transform:
   m_GameObject: {fileID: 1071112059}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.017, y: 2.204, z: -10}
+  m_LocalPosition: {x: -12.86, y: 7.7200003, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8541,7 +8546,7 @@ Camera:
   m_GameObject: {fileID: 1215593547}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -8566,7 +8571,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 40
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
