@@ -557,6 +557,10 @@ PrefabInstance:
       propertyPath: whiteFade
       value: 
       objectReference: {fileID: 1231093098}
+    - target: {fileID: 5840068897098999726, guid: 7cc6fdf3e0ad65f45b871243de66269f, type: 3}
+      propertyPath: maxDistance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7816482136187356935, guid: 7cc6fdf3e0ad65f45b871243de66269f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.30949

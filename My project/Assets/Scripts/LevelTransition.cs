@@ -93,10 +93,13 @@ public class LevelTransition : MonoBehaviour
         string current = SceneManager.GetActiveScene().name;
         for (int i = 0; i < levels.Length - 1; i++)
         {
-            if (levels[i] == current)
+            if (levels[i] == current) {
                 return levels[i + 1];
+            } else if(current == "DarkWorld") {
+                return "End";
+            }
         }
-        return null; // no next level (last level)
+        return null; 
     }
 
     public void StartTransition()
