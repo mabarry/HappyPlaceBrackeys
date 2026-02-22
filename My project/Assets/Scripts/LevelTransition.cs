@@ -8,7 +8,7 @@ public class LevelTransition : MonoBehaviour
     public Image whiteFade;
 
     [Header("Level Order")]
-    public string[] levels = {"Monastery", "Trippy", "DarkWorld"};
+    public string[] levels = {"Monastery", "Trippy", "DarkWorld", "End"};
 
     [Header("Distance Settings")]
     public float maxDistance = 10f;

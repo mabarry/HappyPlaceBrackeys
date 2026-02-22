@@ -7,16 +7,19 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Main.unity
-    guid: 28e6a4a5dee8dd54692d82ba663894d0
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    guid: eb2f520613bdbcc46a88698e8157e37e
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: c63f83acd42cdfe4fb28a0981300f19a
   - enabled: 1
     path: Assets/Scenes/Monastery.unity
     guid: 9a630ce96b2d473439cbea132690663a
+  - enabled: 1
+    path: Assets/Scenes/Trippy.unity
+    guid: c8768c30d7c248e4c86bf1e9374666ac
+  - enabled: 1
+    path: Assets/Scenes/DarkWorld.unity
+    guid: 2dbe20b259c5e4f428ad27d8be39a708
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: d612d322b41e2ac468d4e1ccc5fd0187, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
