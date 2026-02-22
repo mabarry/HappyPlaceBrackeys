@@ -6,14 +6,16 @@ using System.Collections;
 public class LevelTransition : MonoBehaviour
 {
     public Image whiteFade;
-    public string nextSceneName = "Monastery";
-    
+
+    [Header("Level Order")]
+    public string[] levels = {"Monastery", "Trippy", "DarkWorld"};
+
     [Header("Distance Settings")]
-    public float maxDistance = 10f; // distance where fade starts
-    public float minDistance = 1f;  // distance for full fade (before entering)
-    
+    public float maxDistance = 10f;
+    public float minDistance = 1f;
+
     [Header("Timing")]
-    public float finalFadeDuration = 0.5f; // quick fade when entering portal
+    public float finalFadeDuration = 0.5f;
     public float holdDuration = 0.3f;
     public float fadeOutDuration = 1.5f;
 
@@ -25,7 +27,7 @@ public class LevelTransition : MonoBehaviour
     {
         DontDestroyOnLoad(gameObject);
         DontDestroyOnLoad(whiteFade.transform.root.gameObject);
-        
+
         Color c = whiteFade.color;
         c.a = 0f;
         whiteFade.color = c;
@@ -34,12 +36,9 @@ public class LevelTransition : MonoBehaviour
     void Update()
     {
         if (SceneManager.GetActiveScene().name == "MainMenu") return;
-        
         if (isTransitioning) return;
-
         if (portal == null || player == null) return;
 
-        // Calculate distance to portal
         float distance = Vector2.Distance(player.position, portal.position);
 
         float fadeAmount = 0f;
@@ -52,6 +51,15 @@ public class LevelTransition : MonoBehaviour
         Color c = whiteFade.color;
         c.a = fadeAmount;
         whiteFade.color = c;
+    }
+
+    public void TransitionToScene(string sceneName)
+    {
+        if (!isTransitioning)
+        {
+            nextSceneName = sceneName;
+            StartCoroutine(FadeTransition());
+        }
     }
 
     void OnEnable()
@@ -72,42 +80,49 @@ public class LevelTransition : MonoBehaviour
 
     void FindReferences()
     {
-        // Find portal
         GameObject portalObj = GameObject.FindGameObjectWithTag("Portal");
         portal = portalObj != null ? portalObj.transform : null;
-        
-        // Find player
+
         GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
         player = playerObj != null ? playerObj.transform : null;
+    }
+
+    public string GetNextLevel()
+    {
+        Debug.Log("Active scene: " + SceneManager.GetActiveScene().name);
+        string current = SceneManager.GetActiveScene().name;
+        for (int i = 0; i < levels.Length - 1; i++)
+        {
+            if (levels[i] == current)
+                return levels[i + 1];
+        }
+        return null; // no next level (last level)
     }
 
     public void StartTransition()
     {
         if (!isTransitioning)
         {
-            StartCoroutine(FadeTransition());
+            nextSceneName = GetNextLevel();
+            if (nextSceneName != null)
+                StartCoroutine(FadeTransition());
         }
     }
+
+    public string nextSceneName;
 
     IEnumerator FadeTransition()
     {
         isTransitioning = true;
 
-        // Get current fade amount
         float currentAlpha = whiteFade.color.a;
-
-        // Quick fade to full white from current position
         yield return StartCoroutine(FadeToWhite(currentAlpha, finalFadeDuration));
-        
-        // Hold on white
         yield return new WaitForSeconds(holdDuration);
-        
-        // Load new scene
+
         SceneManager.LoadScene(nextSceneName);
-        
-        // Fade from white
+
         yield return StartCoroutine(FadeFromWhite(fadeOutDuration));
-        
+
         isTransitioning = false;
     }
 

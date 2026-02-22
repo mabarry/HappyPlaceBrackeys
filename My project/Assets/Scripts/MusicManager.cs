@@ -8,14 +8,16 @@ public class MusicManager : MonoBehaviour
     private void Awake()
     {
         audioSource = gameObject.AddComponent<AudioSource>();
-        audioSource.clip = music;
         audioSource.loop = true;
-        audioSource.playOnAwake = true;
-        DontDestroyOnLoad(gameObject);
+        audioSource.playOnAwake = false;
     }
 
     private void Start()
     {
-        audioSource.Play();
+        if (music != null)
+        {
+            audioSource.clip = music;
+            audioSource.Play();
+        }
     }
 }
