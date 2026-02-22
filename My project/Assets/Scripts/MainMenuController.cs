@@ -9,14 +9,9 @@ public class MainMenuController : MonoBehaviour
     public void OnStartClick()
     {
         if (levelTransition != null)
-        {
-            levelTransition.nextSceneName = "Monastery";
-            levelTransition.StartTransition();
-        }
+            levelTransition.TransitionToScene("Monastery");
         else
-        {
             SceneManager.LoadScene("Monastery");
-        }
     }
 
     public void OnQuitClick()
